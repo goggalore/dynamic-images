@@ -94,3 +94,10 @@ such that
 &nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/23.gif?raw=true)
 
 Message or talk to me if you wish to see the full formalized reasoning behind this inductive rule. 
+
+#### Adding Gaps 
+If you wish to have gaps between images, then their widths must be adjusted accordingly. Then, the height above is determined instead by 
+
+&nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/24.gif?raw=true)
+
+where g is the gap length.
