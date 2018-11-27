@@ -81,7 +81,7 @@ Doing this for every image will give potentially multiple rows.
 #### Generalization
 --- 
 
-In the above example, we only showed that we can do this for less than three images. It can be shown by mathematical induction that we apply this to an arbitrarily sized collection of images so that multiple rows with image dimensions as columns are returned. Formally, 
+In the above example, we only showed that we can do this for less than three images. It can be shown by mathematical induction that we can apply this to an arbitrarily sized collection of images so that multiple rows with image dimensions as columns are returned. Formally, 
 
 Let H be a real number. Suppose that H is the maximum number such that H <= MAX_HEIGHT determined by 
 
