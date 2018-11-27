@@ -92,3 +92,5 @@ such that
 . Then for each 1, 2, ..., n, 
 
 &nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/23.gif?raw=true)
+
+Message or talk to me if you wish to see the full formalized reasoning behind this inductive rule. 
