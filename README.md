@@ -6,7 +6,7 @@ The results of this algorithm include:
 - Original order of images is maintained
 - All images within a row have the same height despite originals having different aspect ratios and heights
 
-More specific details: 
+More specific details unique to this implementation: 
 - Trailing images get formatted at full width
 - Uses greedy constraint, meaning you must supply a MAX_HEIGHT constraint. 
 
@@ -14,13 +14,13 @@ More specific details:
 (TODO)
 
 # Implementation details
-You do not need to read this section in order to simply use the algorithm and call the function. This section goes into the implementation details of how the algorithm works in case you would like to write it yourself, or just are curious and would like to have a better understanding. Here the pseudocode/mathematical notions will be covered. For a coded version, simply read the source code.
+You do not need to read this section in order to simply use the algorithm and call the function. This section goes into the implementation details of how the algorithm works in case you would like to write it yourself, or just are curious and would like to have a better understanding. Here the mathematical notions will be covered. For a coded version, simply read the source code.
 
 For simplicity purposes, let's take an example. Suppose that we have a collection (array, list, etc.) of three photos which we would like to format within a view of width `W`, all of different aspect ratios and heights, like the following: 
 
 ![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/1.jpg?raw=true "three images") 
 
-Simply all that we would like to do is figure out new dimensions for these photos so that they are laid out inline with eachother in a way that **all images within a given row are of equal height *and* maintain their respective aspect ratios.** Let's first consider their aspect ratios. We know the ratios of the following images (which we plan to maintain) are the following: 
+Simply all that we would like to do is figure out new dimensions for these photos so that they are laid out inline with eachother in a way that **all images within a given row are of equal height *and* maintain their respective aspect ratios.** Let's first consider their aspect ratios. We know the ratios of the previous images (which we plan to maintain) are the following: 
 
 &nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/2.gif?raw=true) 　　　![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/3.gif?raw=true) 　　　![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/4.gif?raw=true)
 
@@ -54,7 +54,7 @@ Now we do something really cool. Notice by (1) we can substitute our values for 
 
 &nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/16.gif?raw=true)
 
-Factoring out H from the left side yields
+Factoring out H from the right side yields
 
 &nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/17.gif?raw=true)
 
@@ -94,3 +94,10 @@ such that
 &nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/23.gif?raw=true)
 
 Message or talk to me if you wish to see the full formalized reasoning behind this inductive rule. 
+
+#### Adding Gaps 
+If you wish to have gaps between images, then their widths must be adjusted accordingly. Then, the height above is determined instead by 
+
+&nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/24.gif?raw=true)
+
+where g is the gap length.
