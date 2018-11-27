@@ -6,7 +6,7 @@ The results of this algorithm include:
 - Original order of images is maintained
 - All images within a row have the same height despite originals having different aspect ratios and heights
 
-More specific details: 
+More specific details unique to this implementation: 
 - Trailing images get formatted at full width
 - Uses greedy constraint, meaning you must supply a MAX_HEIGHT constraint. 
 
