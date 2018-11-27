@@ -54,7 +54,7 @@ Now we do something really cool. Notice by (1) we can substitute our values for 
 
 &nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/16.gif?raw=true)
 
-Factoring out H from the left side yields
+Factoring out H from the right side yields
 
 &nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/17.gif?raw=true)
 
