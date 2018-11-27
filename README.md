@@ -20,7 +20,7 @@ For simplicity purposes, let's take an example. Suppose that we have a collectio
 
 ![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/1.jpg?raw=true "three images") 
 
-Simply all that we would like to do is figure out new dimensions for these photos so that they are laid out inline with eachother in a way that **all images within a given row are of equal height *and* maintain their respective aspect ratios.** Let's first consider their aspect ratios. We know the ratios of the following images (which we plan to maintain) are the following: 
+Simply all that we would like to do is figure out new dimensions for these photos so that they are laid out inline with eachother in a way that **all images within a given row are of equal height *and* maintain their respective aspect ratios.** Let's first consider their aspect ratios. We know the ratios of the previous images (which we plan to maintain) are the following: 
 
 &nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/2.gif?raw=true) 　　　![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/3.gif?raw=true) 　　　![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/4.gif?raw=true)
 
