@@ -74,7 +74,7 @@ Again, say the combined images still are too tall as their widths are too large.
 
 &nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/18.gif?raw=true)
 
-may be below the MAX_HEIGHT constraint. Essentially, to determine the correct H, we compute the height of a row of images and compare it to MAX_HEIGHT each iteration, and finally when the height of the test row is below MAX_HEIGHT, we return the row which will magically be nicely formatted from this logic. After we have this H, we finish the work and determine the widths for each image in the row, by our equation (1) that utilizes the H we just found. 
+which may be below the MAX_HEIGHT constraint. Essentially, to determine the correct H, we compute the height of a row of images and compare it to MAX_HEIGHT each iteration, and finally when the height of the test row is below MAX_HEIGHT, we return the row which will magically be nicely formatted from this logic. After we have this H, we finish the work and determine the widths for each image in the row, by our equation (1) that utilizes the H we just found. 
 
 Doing this for every image will give potentially multiple rows.
 
