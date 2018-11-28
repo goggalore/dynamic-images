@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreGraphics
 
 // the function that we will call
 func getLayout(images: [(String, CGSize)]) -> [[String: CGSize]] {
