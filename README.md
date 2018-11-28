@@ -24,7 +24,7 @@ Simply all that we would like to do is figure out new dimensions for these photo
 
 &nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/2.gif?raw=true) 　　　![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/3.gif?raw=true) 　　　![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/4.gif?raw=true)
 
-and we also know that would like to transform this collection into
+and we also know that we would like to transform this collection into
 
 ![alt text](https://github.com/goggalore/dynamic-images/blob/master/docs/imgs/5.jpg?raw=true "formatted images")
 
