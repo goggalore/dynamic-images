@@ -62,11 +62,16 @@ func getLayout(images: [(String, CGSize)]) -> [[String: CGSize]] {
     for image in images {
         row.append(image)
         let height = getHeight(row: row);
-        
         if (height <= max) {
             layout.append(finish(row: row, height: height))
             row = []
         }
+    }
+    
+    // deal with trailing images
+    if !row.isEmpty {
+        let height = getHeight(row: row);
+        layout.append(finish(row: row, height: height))
     }
     
     return layout
