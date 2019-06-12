@@ -10,11 +10,8 @@ More specific details unique to this implementation:
 - Trailing images get formatted at full width
 - Uses greedy constraint, meaning you must supply a MAX_HEIGHT constraint. 
 
-# Basic usage 
-(TODO)
-
 # Implementation details
-You do not need to read this section in order to simply use the algorithm and call the function. This section goes into the implementation details of how the algorithm works in case you would like to write it yourself, or just are curious and would like to have a better understanding. Here the mathematical notions will be covered. For a coded version, simply read the source code.
+This section goes into the implementation details of how the algorithm works. Here the mathematical notions will be covered. For a coded version, simply read the source code.
 
 For simplicity purposes, let's take an example. Suppose that we have a collection (array, list, etc.) of three photos which we would like to format within a view of width `W`, all of different aspect ratios and heights, like the following: 
 
